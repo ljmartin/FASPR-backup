@@ -18,15 +18,20 @@ Email: tommyhuangthu@foxmail.com, xiaoqiah@umich.edu
 ## FAQ
 1. How to use the program?
 Usage: `./FASPR -i input.pdb -o output.pdb [-s sequence.txt]`
+
 -i: input a pdb backbone for packing. There should be no missing main-chain 
     atoms (N, CA, C and O). If side-chain atoms are included in input.pdb,
     they are ignored by FASPR.
+    
 -o: the repacked structure output by FASPR (in standard PDB format). The 
     residue positions are kept identical to the input pdb file
+    
 -s: (optionally) pack a new sequence on the backbone of the input.pdb file. 
     The sequence should be written as one-single line of one-letter alphabet 
     of amino acid types, e.g.:
+    
     ACDEFGHIKLMNPQRSTVWYYWVTSRQPNMLKIHGFEDCA
+    
     for the input sequence, only 20 canonical amino acids are allowed.
 
     When the input sequence is the same as the one extracted from the PDB 
@@ -60,7 +65,7 @@ FASPR can be run in any OS if it is buit following the way as mentioned above.
 5. FASPR is open-source software under the MIT license.
 
 --------------------------------
-                                REFERENCE
+## REFERENCE
 If FASPR is useful to your work, please cite:
 
 [1] Xiaoqiang Huang, Robin Pearce, Yang Zhang, FASPR: an open-source tool for fast 
