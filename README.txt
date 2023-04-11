@@ -1,3 +1,7 @@
+## ATTN: This is a fork ##
+The original is at https://github.com/tommyhuangthu/FASPR
+I just forked it in case the original gets taken down one day.
+
 ##############################################################################
 
 FASPR is a method for fast and accurate protein side-chain packing, which is 
