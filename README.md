@@ -29,21 +29,22 @@ Usage: `./FASPR -i input.pdb -o output.pdb [-s sequence.txt]`
 -s: (optionally) pack a new sequence on the backbone of the input.pdb file. 
     The sequence should be written as one-single line of one-letter alphabet 
     of amino acid types, e.g.:
-    
-    ACDEFGHIKLMNPQRSTVWYYWVTSRQPNMLKIHGFEDCA
-    
-    for the input sequence, only 20 canonical amino acids are allowed.
 
-    When the input sequence is the same as the one extracted from the PDB 
-    structure, the amino acid side-chain conformations is repacked. When the 
-    input sequence is different from that extracted from PDB, mutations will 
-    be introduced. Therefore, FASPR can be used to construct mutant models 
-    very efficiently.
+```
+ACDEFGHIKLMNPQRSTVWYYWVTSRQPNMLKIHGFEDCA
+``` 
+for the input sequence, only 20 canonical amino acids are allowed.
 
-    If you want to fix the conformation of some residues during packing, you
-    can specify those residue in low-case letters and the others in upper-case 
-    letters, e.g.:
-    acdefghiklmnpqrstvwyYWVTSRQPNMLKIHGFEDCA
+When the input sequence is the same as the one extracted from the PDB 
+structure, the amino acid side-chain conformations is repacked. When the 
+input sequence is different from that extracted from PDB, mutations will 
+be introduced. Therefore, FASPR can be used to construct mutant models 
+very efficiently.
+
+If you want to fix the conformation of some residues during packing, you
+can specify those residue in low-case letters and the others in upper-case 
+letters, e.g.:
+acdefghiklmnpqrstvwyYWVTSRQPNMLKIHGFEDCA
 
 ##  NOTE ##
 Please remember to put the executable FASPR program and the binary Dunbrack 
