@@ -15,7 +15,7 @@ University of Michigan
 Email: tommyhuangthu@foxmail.com, xiaoqiah@umich.edu
 
 -------------------------
-                                  FAQ
+## FAQ
 1. How to use the program?
 Usage: `./FASPR -i input.pdb -o output.pdb [-s sequence.txt]`
 -i: input a pdb backbone for packing. There should be no missing main-chain 
